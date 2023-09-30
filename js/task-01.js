@@ -6,7 +6,7 @@ console.log("Number of categories:" + items.length);
 const newArray = [...items];
 
 newArray.forEach(element => {
-    console.log(element.firstElementChild);
+    console.log("Category:" + element.firstElementChild.textContent);
     console.log("Elements:" + element.lastElementChild.children.length);
 });
 
